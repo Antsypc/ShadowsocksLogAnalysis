@@ -1,0 +1,200 @@
+2015-08-29 21:44:53 INFO     connecting 54.148.100.176:5222 from 27.17.29.187:4801
+2015-08-29 21:44:54 INFO     connecting www.google.com:443 from 27.17.29.188:13929
+2015-08-29 21:44:56 INFO     connecting plus.google.com:443 from 27.17.29.188:16221
+2015-08-29 21:45:03 INFO     connecting 52.74.54.188:80 from 27.17.29.187:26532
+2015-08-29 21:45:03 INFO     connecting 52.74.54.188:80 from 27.17.29.187:59154
+2015-08-29 21:45:05 INFO     connecting 101.226.129.180:8080 from 27.17.29.187:41392
+2015-08-29 21:45:05 INFO     connecting 199.59.148.20:443 from 27.17.29.187:21299
+2015-08-29 21:45:14 INFO     connecting 52.74.54.188:80 from 27.17.29.187:51734
+2015-08-29 21:45:15 ERROR    [Errno 104] Connection reset by peer
+2015-08-29 21:45:18 INFO     connecting 54.255.186.16:80 from 27.17.29.187:24498
+2015-08-29 21:45:19 ERROR    [Errno 111] Connection refused
+2015-08-29 21:45:19 INFO     connecting 54.148.194.253:5222 from 27.17.29.187:17512
+2015-08-29 21:45:23 INFO     connecting 8.8.8.8:53 from 27.17.29.187:14694
+2015-08-29 21:45:23 INFO     connecting 54.255.186.16:80 from 27.17.29.187:54978
+2015-08-29 21:45:24 INFO     connecting golang.org:80 from 27.17.29.188:12964
+2015-08-29 21:45:24 INFO     connecting golang.org:80 from 27.17.29.188:12951
+2015-08-29 21:45:24 INFO     connecting golang.org:80 from 27.17.29.188:12971
+2015-08-29 21:45:24 INFO     connecting golang.org:80 from 27.17.29.188:22461
+2015-08-29 21:45:25 INFO     connecting golang.org:80 from 27.17.29.188:60396
+2015-08-29 21:45:25 INFO     connecting golang.org:80 from 27.17.29.188:38075
+2015-08-29 21:45:25 INFO     connecting golang.org:80 from 27.17.29.188:60393
+2015-08-29 21:45:25 ERROR    [Errno 104] Connection reset by peer
+2015-08-29 21:45:25 INFO     connecting www.youtube.com:80 from 27.17.29.188:25991
+2015-08-29 21:45:25 INFO     connecting www.youtube.com:80 from 27.17.29.188:4387
+2015-08-29 21:45:25 INFO     connecting 52.74.54.188:80 from 27.17.29.187:41019
+2015-08-29 21:45:25 INFO     connecting blog.golang.org:80 from 27.17.29.188:48190
+2015-08-29 21:45:25 INFO     connecting player.vimeo.com:80 from 27.17.29.188:53274
+2015-08-29 21:45:25 INFO     connecting player.vimeo.com:80 from 27.17.29.188:12710
+2015-08-29 21:45:26 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:21232
+2015-08-29 21:45:26 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:33647
+2015-08-29 21:45:28 INFO     connecting 8.8.8.8:53 from 27.17.29.187:53936
+2015-08-29 21:45:29 INFO     connecting 23.252.100.110:80 from 27.17.29.187:50868
+2015-08-29 21:45:31 INFO     connecting 23.252.100.110:80 from 27.17.29.187:5920
+2015-08-29 21:45:32 INFO     connecting 23.252.100.110:443 from 27.17.29.187:56201
+2015-08-29 21:45:35 INFO     connecting 52.74.201.8:80 from 27.17.29.187:55176
+2015-08-29 21:45:44 INFO     connecting 52.74.54.188:80 from 27.17.29.187:45976
+2015-08-29 21:46:19 INFO     connecting 8.8.8.8:53 from 27.17.29.187:30098
+2015-08-29 21:46:20 INFO     connecting 42.62.48.182:80 from 27.17.29.187:29530
+2015-08-29 21:46:20 INFO     connecting 54.255.186.16:80 from 27.17.29.187:52171
+2015-08-29 21:46:21 ERROR    [Errno 111] Connection refused
+2015-08-29 21:46:24 INFO     connecting tour.golang.org:80 from 27.17.29.188:35434
+2015-08-29 21:46:24 INFO     connecting tour.golang.org:80 from 27.17.29.188:35431
+2015-08-29 21:46:25 INFO     connecting 8.8.8.8:53 from 27.17.29.187:33239
+2015-08-29 21:46:25 INFO     connecting fonts.googleapis.com:80 from 27.17.29.188:41356
+2015-08-29 21:46:25 INFO     connecting tour.golang.org:80 from 27.17.29.188:41539
+2015-08-29 21:46:25 INFO     connecting 74.125.224.126:443 from 27.17.29.187:27845
+2015-08-29 21:46:26 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:64922
+2015-08-29 21:46:30 INFO     connecting mtalk.google.com:5228 from 27.17.29.182:49924
+2015-08-29 21:46:30 INFO     connecting translate.googleapis.com:443 from 27.17.29.182:49950
+2015-08-29 21:46:30 INFO     connecting clients4.google.com:443 from 27.17.29.182:23124
+2015-08-29 21:46:30 INFO     connecting safebrowsing.google.com:443 from 27.17.29.182:15192
+2015-08-29 21:46:30 INFO     connecting accounts.google.com:443 from 27.17.29.182:49939
+2015-08-29 21:46:30 INFO     connecting accounts.google.com:443 from 27.17.29.182:49940
+2015-08-29 21:46:31 INFO     connecting tour.golang.org:80 from 27.17.29.188:46885
+2015-08-29 21:46:31 INFO     connecting tour.golang.org:80 from 27.17.29.188:31163
+2015-08-29 21:46:31 INFO     connecting accounts.youtube.com:443 from 27.17.29.182:45677
+2015-08-29 21:46:31 INFO     connecting www.googleapis.com:443 from 27.17.29.182:46524
+2015-08-29 21:46:31 INFO     connecting www.googleapis.com:443 from 27.17.29.182:35882
+2015-08-29 21:46:33 INFO     connecting accounts.google.com:443 from 27.17.29.182:48158
+2015-08-29 21:46:33 INFO     connecting clients4.google.com:443 from 27.17.29.182:56449
+2015-08-29 21:46:35 INFO     connecting clients4.google.com:443 from 27.17.29.182:56007
+2015-08-29 21:46:36 INFO     connecting clients1.google.com:443 from 27.17.29.182:16266
+2015-08-29 21:46:40 INFO     connecting ssl.gstatic.com:443 from 27.17.29.182:35112
+2015-08-29 21:46:48 INFO     connecting 52.74.54.188:80 from 27.17.29.187:2137
+2015-08-29 21:46:49 INFO     connecting clients4.google.com:443 from 27.17.29.188:58241
+2015-08-29 21:47:24 INFO     connecting clients4.google.com:443 from 27.17.29.188:34593
+2015-08-29 21:49:12 WARNING  timed out: 199.59.148.20:443
+2015-08-29 21:50:05 WARNING  timed out: 101.226.129.180:8080
+2015-08-29 21:50:13 WARNING  timed out
+2015-08-29 21:50:13 INFO     connecting clients4.google.com:443 from 27.17.29.188:49388
+2015-08-29 21:50:13 INFO     connecting 54.148.194.253:5222 from 27.17.29.187:14866
+2015-08-29 21:50:23 INFO     connecting safebrowsing-cache.google.com:443 from 27.17.29.182:56022
+2015-08-29 21:50:31 INFO     connecting www.google.com:443 from 27.17.29.188:49548
+2015-08-29 21:50:40 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:22722
+2015-08-29 21:50:40 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:11195
+2015-08-29 21:50:40 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:53435
+2015-08-29 21:50:42 INFO     connecting www.google.com:443 from 27.17.29.188:35431
+2015-08-29 21:50:59 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:50171
+2015-08-29 21:50:59 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:12120
+2015-08-29 21:51:01 WARNING  timed out: 14.17.42.31:80
+2015-08-29 21:51:01 INFO     connecting 14.17.42.23:80 from 27.17.29.187:41401
+2015-08-29 21:51:03 INFO     connecting 54.255.186.16:80 from 27.17.29.187:59896
+2015-08-29 21:51:04 ERROR    [Errno 111] Connection refused
+2015-08-29 21:51:04 INFO     connecting 54.148.100.176:5222 from 27.17.29.187:15741
+2015-08-29 21:51:13 INFO     connecting www.gstatic.com:80 from 27.17.29.188:35271
+2015-08-29 21:51:13 INFO     connecting www.google.com:443 from 27.17.29.188:31640
+2015-08-29 21:51:30 INFO     connecting www.google.com:443 from 27.17.29.188:16678
+2015-08-29 21:51:34 WARNING  timed out: mtalk.google.com:5228
+2015-08-29 21:51:34 INFO     connecting mtalk.google.com:5228 from 27.17.29.182:64772
+2015-08-29 21:52:06 INFO     connecting tour.golang.org:80 from 27.17.29.188:8749
+2015-08-29 21:52:34 INFO     connecting www.google.com:80 from 27.17.29.188:5165
+2015-08-29 21:52:35 INFO     connecting www.google.com:443 from 27.17.29.188:51558
+2015-08-29 21:52:36 INFO     connecting clients2.google.com:443 from 27.17.29.182:20461
+2015-08-29 21:52:43 INFO     connecting clients2.google.com:443 from 27.17.29.188:41360
+2015-08-29 21:52:54 INFO     connecting www.google.com:80 from 27.17.29.188:16744
+2015-08-29 21:52:55 INFO     connecting www.google.com:443 from 27.17.29.188:28265
+2015-08-29 21:52:56 INFO     connecting clients2.google.com:443 from 27.17.29.188:42463
+2015-08-29 21:52:57 INFO     connecting 8.8.8.8:53 from 27.17.29.187:37263
+2015-08-29 21:52:57 INFO     connecting 223.202.68.82:80 from 27.17.29.187:46167
+2015-08-29 21:53:10 INFO     connecting clients2.google.com:443 from 27.17.29.188:49205
+2015-08-29 21:53:29 INFO     connecting clients2.google.com:443 from 27.17.29.188:51550
+2015-08-29 21:53:56 INFO     connecting clients2.google.com:443 from 27.17.29.188:19988
+2015-08-29 21:54:03 ERROR    [Errno 104] Connection reset by peer
+2015-08-29 21:54:05 INFO     connecting www.googleapis.com:443 from 27.17.29.188:13532
+2015-08-29 21:54:36 INFO     connecting clients2.google.com:443 from 27.17.29.188:37804
+2015-08-29 21:54:40 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:61025
+2015-08-29 21:54:40 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:43477
+2015-08-29 21:54:40 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:34300
+2015-08-29 21:54:40 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:14472
+2015-08-29 21:54:59 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:11420
+2015-08-29 21:54:59 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:11422
+2015-08-29 21:55:13 INFO     connecting www.gstatic.com:80 from 27.17.29.188:2531
+2015-08-29 21:55:49 INFO     connecting clients2.google.com:443 from 27.17.29.188:65401
+2015-08-29 21:56:06 WARNING  timed out: 14.17.42.23:80
+2015-08-29 21:56:07 INFO     connecting 14.17.42.23:80 from 27.17.29.187:40699
+2015-08-29 21:56:07 INFO     connecting 42.120.142.1:443 from 27.17.29.187:3845
+2015-08-29 21:56:07 INFO     connecting tour.golang.org:80 from 27.17.29.188:18176
+2015-08-29 21:56:08 INFO     connecting 8.8.8.8:53 from 27.17.29.187:5545
+2015-08-29 21:56:08 INFO     connecting 8.8.8.8:53 from 27.17.29.187:36686
+2015-08-29 21:56:08 INFO     connecting 110.75.206.8:80 from 27.17.29.187:36727
+2015-08-29 21:56:08 INFO     connecting 140.205.163.251:80 from 27.17.29.187:24486
+2015-08-29 21:56:36 WARNING  timed out: mtalk.google.com:5228
+2015-08-29 21:56:36 INFO     connecting mtalk.google.com:5228 from 27.17.29.182:51455
+2015-08-29 21:56:54 INFO     connecting 183.60.15.188:80 from 27.17.29.187:51640
+2015-08-29 21:56:56 INFO     connecting 101.227.169.161:8080 from 27.17.29.187:42762
+2015-08-29 21:57:53 INFO     connecting clients4.google.com:443 from 27.17.29.188:16656
+2015-08-29 21:58:00 INFO     connecting clients2.google.com:443 from 27.17.29.188:21859
+2015-08-29 21:58:29 INFO     connecting 42.62.48.182:80 from 27.17.29.187:3889
+2015-08-29 21:58:29 INFO     connecting 54.255.186.16:80 from 27.17.29.187:26558
+2015-08-29 21:58:29 ERROR    [Errno 111] Connection refused
+2015-08-29 21:58:29 INFO     connecting 54.148.100.176:5222 from 27.17.29.187:7236
+2015-08-29 21:58:41 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:18845
+2015-08-29 21:58:41 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:15580
+2015-08-29 21:58:41 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:12720
+2015-08-29 21:58:41 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:49349
+2015-08-29 21:58:59 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:27709
+2015-08-29 21:59:26 INFO     connecting clients4.google.com:443 from 27.17.29.182:31457
+2015-08-29 22:01:01 INFO     connecting www.google.com:80 from 27.17.29.188:49630
+2015-08-29 22:01:01 INFO     connecting www.google.com:443 from 27.17.29.188:55949
+2015-08-29 22:01:03 INFO     connecting plus.google.com:443 from 27.17.29.188:4867
+2015-08-29 22:01:36 WARNING  timed out: mtalk.google.com:5228
+2015-08-29 22:01:36 INFO     connecting mtalk.google.com:5228 from 27.17.29.182:35585
+2015-08-29 22:02:16 INFO     connecting clients2.google.com:443 from 27.17.29.188:25950
+2015-08-29 22:03:22 WARNING  unsupported addrtype 122, maybe wrong password or encryption method
+2015-08-29 22:03:22 ERROR    can not parse header when handling connection from 113.247.97.143:6371
+2015-08-29 22:03:23 WARNING  unsupported addrtype 96, maybe wrong password or encryption method
+2015-08-29 22:03:23 ERROR    can not parse header when handling connection from 115.192.209.17:40988
+2015-08-29 22:03:30 WARNING  timed out: 42.62.48.182:80
+2015-08-29 22:04:29 INFO     connecting clients4.google.com:443 from 27.17.29.182:52581
+2015-08-29 22:04:45 WARNING  timed out: 14.17.42.23:80
+2015-08-29 22:04:54 INFO     connecting 14.17.42.13:80 from 27.17.29.187:39812
+2015-08-29 22:05:49 INFO     connecting clients4.google.com:443 from 27.17.29.188:55931
+2015-08-29 22:06:37 WARNING  timed out: mtalk.google.com:5228
+2015-08-29 22:06:38 INFO     connecting mtalk.google.com:5228 from 27.17.29.182:21259
+2015-08-29 22:07:59 INFO     connecting clients2.google.com:443 from 27.17.29.182:16679
+2015-08-29 22:09:19 INFO     connecting clients4.google.com:443 from 27.17.29.188:44636
+2015-08-29 22:09:58 WARNING  timed out: 14.17.42.13:80
+2015-08-29 22:10:38 WARNING  timed out: 42.120.142.1:443
+2015-08-29 22:10:39 INFO     connecting 8.8.8.8:53 from 27.17.29.187:14859
+2015-08-29 22:10:40 INFO     connecting 14.17.42.13:80 from 27.17.29.187:13228
+2015-08-29 22:10:41 INFO     connecting 54.255.186.16:80 from 27.17.29.187:50158
+2015-08-29 22:10:41 ERROR    [Errno 111] Connection refused
+2015-08-29 22:10:42 INFO     connecting 54.148.194.253:5222 from 27.17.29.187:33643
+2015-08-29 22:11:04 INFO     connecting www.googletagservices.com:80 from 27.17.29.188:64357
+2015-08-29 22:11:04 INFO     connecting www.google-analytics.com:443 from 27.17.29.188:28020
+2015-08-29 22:11:04 INFO     connecting tpc.googlesyndication.com:80 from 27.17.29.188:60111
+2015-08-29 22:11:04 INFO     connecting tpc.googlesyndication.com:80 from 27.17.29.188:43481
+2015-08-29 22:11:14 INFO     connecting plus.google.com:443 from 27.17.29.188:5048
+2015-08-29 22:11:38 WARNING  timed out: mtalk.google.com:5228
+2015-08-29 22:11:39 INFO     connecting mtalk.google.com:5228 from 27.17.29.182:45674
+2015-08-29 22:11:53 INFO     connecting www.google-analytics.com:80 from 27.17.29.188:64917
+2015-08-29 22:11:53 INFO     connecting 8.8.8.8:53 from 27.17.29.187:52136
+2015-08-29 22:11:54 INFO     connecting clients1.google.com:443 from 27.17.29.188:18179
+2015-08-29 22:11:54 INFO     connecting 8.8.8.8:53 from 27.17.29.187:43071
+2015-08-29 22:11:54 INFO     connecting 8.8.8.8:53 from 27.17.29.187:52140
+2015-08-29 22:11:55 INFO     connecting tpc.googlesyndication.com:80 from 27.17.29.188:64340
+2015-08-29 22:11:55 INFO     connecting tpc.googlesyndication.com:80 from 27.17.29.188:64341
+2015-08-29 22:11:55 INFO     connecting www.google.com:443 from 27.17.29.188:17472
+2015-08-29 22:11:55 INFO     connecting 52.74.183.60:80 from 27.17.29.187:8520
+2015-08-29 22:11:55 INFO     connecting pagead2.googlesyndication.com:80 from 27.17.29.188:9040
+2015-08-29 22:11:56 INFO     connecting tpc.googlesyndication.com:443 from 27.17.29.188:60128
+2015-08-29 22:11:56 INFO     connecting tpc.googlesyndication.com:443 from 27.17.29.188:60126
+2015-08-29 22:11:56 INFO     connecting 42.120.142.1:443 from 27.17.29.187:29149
+2015-08-29 22:11:56 INFO     connecting tpc.googlesyndication.com:443 from 27.17.29.188:20303
+2015-08-29 22:11:56 INFO     connecting p4-cs4hw6leqm2im-35wweyi3w4ilvm6t-if-v6exp3-v4.metric.gstatic.com:443 from 27.17.29.188:14301
+2015-08-29 22:11:57 INFO     connecting p4-cs4hw6leqm2im-35wweyi3w4ilvm6t-if-v6exp3-v4.metric.gstatic.com:443 from 27.17.29.188:14296
+2015-08-29 22:11:57 INFO     connecting 8.8.8.8:53 from 27.17.29.187:49347
+2015-08-29 22:11:58 INFO     connecting 110.75.206.8:80 from 27.17.29.187:40642
+2015-08-29 22:12:02 INFO     connecting 199.59.148.20:443 from 27.17.29.187:29018
+2015-08-29 22:12:04 INFO     connecting 54.255.183.200:80 from 27.17.29.187:13353
+2015-08-29 22:12:05 INFO     connecting 199.59.148.20:443 from 27.17.29.187:62903
+2015-08-29 22:12:05 INFO     connecting 8.8.8.8:53 from 27.17.29.187:38402
+2015-08-29 22:12:05 INFO     connecting 192.229.163.25:443 from 27.17.29.187:11359
+2015-08-29 22:12:05 INFO     connecting 8.8.8.8:53 from 27.17.29.187:47181
+2015-08-29 22:12:06 INFO     connecting 199.59.148.82:443 from 27.17.29.187:5556
+2015-08-29 22:12:07 INFO     connecting p4-cs4hw6leqm2im-35wweyi3w4ilvm6t-375468-i1-v6exp3-ds.metric.gstatic.com:443 from 27.17.29.188:42374
+2015-08-29 22:12:07 INFO     connecting p4-cs4hw6leqm2im-35wweyi3w4ilvm6t-375468-i2-v6exp3-v4.metric.gstatic.com:443 from 27.17.29.188:63849
+2015-08-29 22:12:09 INFO     connecting 54.255.183.200:80 from 27.17.29.187:8403
+2015-08-29 22:12:12 INFO     connecting 8.8.8.8:53 from 27.17.29.187:3521
+2015-08-29 22:12:41 INFO     connecting p4-cs4hw6leqm2im-35wweyi3w4ilvm6t-375468-s1-v6exp3-v4.metric.gstatic.com:443 from 27.17.29.188:12725
