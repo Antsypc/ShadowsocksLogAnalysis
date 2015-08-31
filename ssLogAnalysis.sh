@@ -16,7 +16,10 @@ do
 	if [ `expr $i % 2` != 0 ]
 	then
 		echo -ne $ip"\t"
-		curl -s "http://ip138.com/ips138.asp?ip=${ip}&action=2" | iconv -f gb2312 -t utf-8 | grep '<ul class="ul1"><li>' | awk -F'[><]+' 'BEGIN{ORS=" "} {location=substr($5,19);printf("%-50s",location)}'
+		# ubuntu14.04 utf-8
+		curl -s "http://ip138.com/ips138.asp?ip=${ip}&action=2" | iconv -f gb2312 -t utf-8 | grep '<ul class="ul1"><li>' | awk -F'[><]' 'BEGIN{ORS=" "} {location=substr($7,19);printf("%-50s",location)}'
+		# centos6 utf-8
+		# curl -s "http://ip138.com/ips138.asp?ip=${ip}&action=2" | iconv -f gb2312 -t utf-8 | grep '<ul class="ul1"><li>' | awk -F'[><]' 'BEGIN{ORS=" "} {location=substr($7,7);printf("%-50s",location)}'
 	else
 		echo -e ${ip}
 	fi
