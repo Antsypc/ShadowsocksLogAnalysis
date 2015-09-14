@@ -1,64 +1,68 @@
 #!/bin/bash
 
 # this shell script :
-# get yesterday log analysis from shadowsocks and save the message into mysql.
+# get history log analysis from 'shadowsocks.log' and save the message into mysql.
 
 # make sure shadowsocks.log under '/var/log'.
 # if there is not shadowsocks.log, then exit.
-# or you can change the location both in line 6 and line 12
+# or you can change the location both in line 9 and line 11
 if [ ! -e "/var/log/shadowsocks.log" ]
 then
 	echo "No such file: /var/log/shadowsocks.log"
 	exit
 fi
 
-# get yesterday,ip_array,location_array,times_array,first_log_array,last_log_array
-yesterday=`date -d "-1day" +%Y-%m-%d`
-
+# get ip_array,location_array,times_array,first_log_array,last_log_array
 #array dayLogInfo is consists of IP,first login and last login of this IP yesterday,login times of this IP yesterday
 dayLogInfo=$(awk '  
-	/^'"$yesterday"'.*connecting .*:[0-9]+ from .*:[0-9]+/{ 
+	/connecting .*:[0-9]+ from .*:[0-9]+/{ 
 		split($7,IP,":");
 		LogTimes[IP[1]]++;
 		if(FirstLogin[IP[1]] == "")
 			FirstLogin[IP[1]]=$1"/"$2;
 		LastLogin[IP[1]]=$1"/"$2;
+		if(index(LogDays[IP[1]],$1) == 0)
+			LogDays[IP[1]]=LogDays[IP[1]]$1;
 	} 
 	END{ 
 		for(ip in LogTimes) 
-			print ip,FirstLogin[ip],LastLogin[ip],LogTimes[ip];
+			print ip,FirstLogin[ip],LastLogin[ip],LogTimes[ip],length(LogDays[ip])/10;
 	}' /var/log/shadowsocks.log)
 
 i=0
 for e in ${dayLogInfo[@]}
 do
-	if [ $((i % 4)) == 0 ]
+	if [ $((i % 5)) == 0 ]
 	then
-		ip_array[i/4]=$e
+		ip_array[i/5]=$e
 		# mawk 1.2,print location
-		location_array[i/4]=$(curl -s "http://ip138.com/ips138.asp?ip=${e}&action=2" | iconv -f gb2312 -t utf-8 | grep '<ul class="ul1"><li>' | awk -F'[><]' '{loc=substr($7,19);gsub(/ +/,",",loc);print loc;}')
+		location_array[i/5]=$(curl -s "http://ip138.com/ips138.asp?ip=${e}&action=2" | iconv -f gb2312 -t utf-8 | grep '<ul class="ul1"><li>' | awk -F'[><]' '{loc=substr($7,19);gsub(/ +/,",",loc);gsub(/[\b\t\n,]+$/,"",loc);print loc;}')
 		# gawk 3.1.7,print location
 		#location_array[i]=$(curl -s "http://ip138.com/ips138.asp?ip=${e}&action=2" | iconv -f gb2312 -t utf-8 | grep '<ul class="ul1"><li>' | awk -F'[><]' '{loc=substr($7,7);gsub(/ +/,",",loc);print loc;}')
-	elif [ $((i % 4)) == 1 ]
+	elif [ $((i % 5)) == 1 ]
 	then
-		firstlog_array[i/4]=$e
-	elif [ $((i % 4)) == 2 ]
+		firstlog_array[i/5]=$e
+	elif [ $((i % 5)) == 2 ]
 	then
-		lastlog_array[i/4]=$e
-	elif [ $((i % 4)) == 3 ]
+		lastlog_array[i/5]=$e
+	elif [ $((i % 5)) == 3 ]
 	then
-		logtimes_array[i/4]=$e
+		logtimes_array[i/5]=$e
+	elif [ $((i % 5)) == 4 ]
+	then
+		logdays_array[i/5]=$e
 	fi
 	((i++))
 done
 
-((i=i/4))
-#echo -e $i"\n\n"
-#echo -e "iparray\n"${ip_array[*]}
-#echo -e "locationarray\n"${location_array[*]}
-#echo -e "firstarray\n"${firstlog_array[*]}
-#echo -e "lastarray\n"${lastlog_array[*]}
-#echo -e "timesarray\n"${logtimes_array[*]}
+((i=i/5))
+echo -e $i"\n\n"
+echo -e "iparray\n"${ip_array[*]}
+echo -e "locationarray\n"${location_array[*]}
+echo -e "firstarray\n"${firstlog_array[*]}
+echo -e "lastarray\n"${lastlog_array[*]}
+echo -e "timesarray\n"${logtimes_array[*]}
+echo -e "daysarray\n"${logdays_array[*]}
 
 # multi annotation for database operations
 :<< EOF
@@ -90,8 +94,9 @@ done
 	mysql> DELIMITER ;
 EOF
 
-echo $yesterday
 mysql -ushadowsocks -pshadowsocks << EOF
 	USE shadowsocksLogAnalysis;
-	CALL insertDayLog($i,'${yesterday}','${ip_array[*]}','${location_array[*]}','${logtimes_array[*]}','${firstlog_array[*]}','${lastlog_array[*]}');
+	CALL insertHistoryLog($i,'${ip_array[*]}','${location_array[*]}','${firstlog_array[*]}','${lastlog_array[*]}','${logtimes_array[*]}','${logdays_array[*]}');
+	
 EOF
+
